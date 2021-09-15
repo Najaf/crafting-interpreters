@@ -1,0 +1,5 @@
+#! /bin/sh
+
+clang doubly_linked_list.c -o doubly_linked_list
+./doubly_linked_list
+rm ./doubly_linked_list
